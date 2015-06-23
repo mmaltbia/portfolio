@@ -6,6 +6,12 @@
 body {
 	font-family: Raleway;
 	font-size: 12px;
+	background-image: url('https://sultanabdulhaseeb.files.wordpress.com/2013/03/subtle.jpg');
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
 }
 
 .navbar-default .navbar-brand {
@@ -21,3 +27,4 @@ body {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #FC9128;
   background-color: #000000;
+
