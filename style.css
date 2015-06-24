@@ -1,6 +1,16 @@
 
 .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
   height: 650px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none
+  border-radius: none;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
 }
 
 body {
@@ -12,19 +22,23 @@ body {
 h1 {
   font-size: 36px;
   color: #fff;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .navbar-default .navbar-brand {
   color: #FFF;
   font-family: Oswald;
   font-size: 24px;
+
 }
 
 .navbar-default {
-  background-color: #000;
+  background-color: rgba(132, 132, 132, 0.3);
+   border: none;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #FC9128;
-  background-color: #000000;
-
+  background-color: rgba(132, 132, 132, 0.3);
+}
