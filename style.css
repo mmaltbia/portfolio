@@ -1,10 +1,15 @@
+body {
+	font-family: Raleway;
+	font-size: 12px;
+	background-color: #E5E6E7;
+}
 
 .thumbnail {
   display: block;
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  height: 650px;
+  height: 571px;
   background-color: rgba(255, 255, 255, 0.5);
   border: none
   border-radius: none;
@@ -13,11 +18,6 @@
   transition: border .2s ease-in-out;
 }
 
-body {
-	font-family: Raleway;
-	font-size: 12px;
-	background-image: url('https://sultanabdulhaseeb.files.wordpress.com/2013/03/subtle.jpg');
-}
 
 h1 {
   font-size: 36px;
@@ -38,7 +38,24 @@ h1 {
    border: none;
 }
 
+
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #FC9128;
   background-color: rgba(132, 132, 132, 0.3);
+}
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  width: 332px;
+}
+
+.btn-submit {
+	width: 75px;
+}
+
+.btn-middle {
+  margin-top: 33px;
 }
